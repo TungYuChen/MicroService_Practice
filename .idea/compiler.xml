@@ -7,14 +7,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="discoveryService" />
         <module name="product-service" />
         <module name="order-service" />
         <module name="inventory-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aabb" target="18" />
+      <module name="discovery-server" target="18" />
+      <module name="discoveryServier" target="18" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aabb" options="-parameters" />
+      <module name="discovery-server" options="-parameters" />
+      <module name="discoveryService" options="-parameters" />
+      <module name="discoveryServier" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="product-service" options="-parameters" />
