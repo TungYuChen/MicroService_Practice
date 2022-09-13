@@ -1,0 +1,10 @@
+com\microservice\microservicepractice\model\ProductRequest.class
+com\microservice\microservicepractice\repository\ProductRepository.class
+com\microservice\microservicepractice\entity\Product.class
+com\microservice\microservicepractice\model\ProductResponse$ProductResponseBuilder.class
+com\microservice\microservicepractice\service\ProductService.class
+com\microservice\microservicepractice\entity\Product$ProductBuilder.class
+com\microservice\microservicepractice\MicroservicePracticeApplication.class
+com\microservice\microservicepractice\model\ProductResponse.class
+com\microservice\microservicepractice\controller\ProductController.class
+com\microservice\microservicepractice\model\ProductRequest$ProductRequestBuilder.class
